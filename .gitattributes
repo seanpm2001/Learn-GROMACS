@@ -28,6 +28,16 @@
 *.hta linguist-detectable=true
 *.hta linguist-documentation=false
 *.hta linguist-language=HTML
+# GROMACS source file
+*.g96 linguist-detectable=true
+*.g96 linguist-documentation=false
+*.g96 linguist-language=GROMACS
+*.gro linguist-detectable=true
+*.gro linguist-documentation=false
+*.gro linguist-language=GROMACS
+*.pdb linguist-detectable=true
+*.pdb linguist-documentation=false
+*.pdb linguist-language=GROMACS
 # CSS (Cascade Styling Sheets) stylesheet file
 *.css linguist-detectable=true
 *.css linguist-documentation=false
@@ -161,10 +171,13 @@
 *.gif linguist-detectable=false
 *.gif linguist-documentation=false
 *.gif linguist-language=GIF
+
 # End of linguist script
 
 # File info
-# File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+
+# File type: gitattributes file (*.gitattributes)
+# File version: 5 (2025, Wednesday, September 24th at 11:01 pm PST)
+# Line count (including blank lines and compiler line): 184
+
 # End of script
